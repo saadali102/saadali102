@@ -22,16 +22,7 @@ I'm a cybersecurity graduate working as a GRC Analyst at CareCloud, where I work
 
 <!-- Replace each "In progress" with a link once the repo is public -->
 
-| Project | Description | Status |
-|---|---|---|
-| **ISO 27001:2022 Gap Assessment & Internal Audit Kit** | Gap assessment tracker, SoA template, audit plan, checklist and report templates | In progress |
-| **ISO 42001 AI Management System Starter Pack** | AI policy, AI risk and impact assessment, AI system inventory, clause-by-clause checklist | In progress |
-| **Information Security Risk Register & Treatment Plan** | Scoring methodology, sample register, residual risk calculation | In progress |
-| **Cross-Framework Control Mapping** | ISO 27001 ↔ ISO 42001 ↔ NIST CSF mapping | In progress |
 
-> All templates use fictional organizations. No client or employer data is published here.
-
----
 
 ## 🛡️ Featured Technical Projects
 
