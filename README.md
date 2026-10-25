@@ -1,134 +1,100 @@
-# 👋 Hey, I'm **Saad Ali**
+# 👋 Hey, I'm Saad Ali
 
-Welcome to my GitHub profile! I'm a passionate  final-year  cybersecurity student and developer with hands-on experience in **SOC operations**, **penetration testing**, and applying **AI/ML** to detect and mitigate threats. I build security tools, analyze network traffic, and automate defensive workflows. I enjoy working on open-source projects, collaborating in CTFs and hackathons, and contributing to the security communi
+**GRC Analyst | ISO 27001 · ISO 42001 | AI Governance & Information Security**
 
----
-### Portfolio :  https://saadali-portfolioo.netlify.app/
+I'm a cybersecurity graduate working as a GRC Analyst at CareCloud, where I work on ISO/IEC 27001 and ISO/IEC 42001 implementation. I help organizations assess security gaps, manage risk, and build compliance programs, and I bring a hands-on technical background (SOC, pentesting, ML for security) to my governance work. My research interests are AI governance, trustworthy AI, and information security.
 
-## 🔧 Technical Stack
-
-### 🖥️ SOC & Security Monitoring
-
-`Splunk` `IBM QRadar` `Wazuh` `Snort` `Suricata` `Graylog`
-
-**Threat Hunting • Log Analysis • Incident Response • SIEM Deployment**
+🌐 Portfolio: https://saadali-portfolioo.netlify.app/
 
 ---
 
-### ⚔️ Penetration Testing & Red Teaming
+## 🎯 What I Do
 
-`Burp Suite` `Metasploit` `Nmap` `OWASP ZAP` `SQLmap` `Hashcat` `John the Ripper` `Cobalt Strike`
-
-**Web & Network Pentesting • Vulnerability Assessment • Post-Exploitation**
-
----
-
-### 🤖 AI / ML for Cybersecurity
-
-`TensorFlow` `PyTorch` `Scikit-Learn` `Keras` `Pandas` `NumPy`
-
-**Anomaly Detection • UEBA • Malware Classification • Phishing Detection**
+- **ISO/IEC 27001:2022**: internal audits, gap assessments, Statement of Applicability (SoA), control implementation
+- **ISO/IEC 42001**: AI management system (AIMS) readiness and governance
+- **Risk Management**: risk registers, risk assessment methodology, treatment plans
+- **Policy & Documentation**: security policies, procedures, audit evidence and reports
+- **Framework Mapping**: ISO 27001, ISO 42001, NIST CSF, and related standards
 
 ---
 
-### 🧑‍💻 Programming & Scripting
+## 📋 GRC Projects
 
-`Python` `C++` `SQL` `Bash` `PowerShell` `JavaScript`
+<!-- Replace each "In progress" with a link once the repo is public -->
 
----
+| Project | Description | Status |
+|---|---|---|
+| **ISO 27001:2022 Gap Assessment & Internal Audit Kit** | Gap assessment tracker, SoA template, audit plan, checklist and report templates | In progress |
+| **ISO 42001 AI Management System Starter Pack** | AI policy, AI risk and impact assessment, AI system inventory, clause-by-clause checklist | In progress |
+| **Information Security Risk Register & Treatment Plan** | Scoring methodology, sample register, residual risk calculation | In progress |
+| **Cross-Framework Control Mapping** | ISO 27001 ↔ ISO 42001 ↔ NIST CSF mapping | In progress |
 
-### ☁️ Cloud & DevOps Security
-
-`AWS` `Docker` `Kubernetes` `Terraform` `GitHub Actions` `Ansible` `Prometheus` `Grafana`
-
----
-
-### 🛠️ Frameworks & Platforms
-
-`Flask` `FastAPI` `REST APIs` `Wireshark` `Volatility` `Autopsy` `Kali Linux`
+> All templates use fictional organizations. No client or employer data is published here.
 
 ---
 
-## 🚀 Featured Projects
+## 🛡️ Featured Technical Projects
 
-### 🔍 Malware Traffic Detection Using Victim–Attacker Interaction Patterns
+### End-to-End Vulnerability Assessment & SOC Defense System
+- Designed a 3-zone enterprise network (External / DMZ / Internal) with pfSense
+- Identified 34+ vulnerabilities (SQLi, XSS, CSRF) with an 85% detection rate
+- Deployed Wazuh SIEM with custom rules and Suricata IDS
+- Automated CVSS scoring and **mapped controls to NIST CSF & ISO 27001**
+- **Tech:** pfSense, Wazuh, Suricata, Kali Linux, Metasploit, Python, Windows Server
 
-* ML-based detection of **encrypted malware traffic** with **99.88% binary accuracy**
-* Engineered **22 statistical features** from 16-packet channel units using **LightGBM**
-* Implemented **SampleNorm** to handle traffic non-stationarity and tolerate **20% packet loss**
-* Classified **10 malware families** with **96.24% multi-class accuracy**
-* **Tech:** Python, PyTorch, Scapy, LightGBM, Google Colab
+### Malware Traffic Detection Using Victim–Attacker Interaction Patterns
+- ML-based detection of encrypted malware traffic with 99.88% binary accuracy
+- Engineered 22 statistical features from 16-packet channel units using LightGBM
+- Classified 10 malware families with 96.24% multi-class accuracy
+- **Tech:** Python, PyTorch, Scapy, LightGBM, Google Colab
 
----
+### Secure Ride-Hailing Web Application
+- Multi-role (user/driver/admin) Flask app with JWT authentication, bcrypt hashing, and CSRF protection
+- Applied OWASP Top 10 best practices; PCI-DSS compliance via external payment handling
+- **Tech:** Python, Flask, MySQL, JWT, bcrypt, Mapbox API
 
-### 🛡️ End-to-End Vulnerability Assessment & SOC Defense System
+### Anomaly-Based Intrusion Detection System
+- K-Means clustering with PCA over 40+ behavioral network features
+- Silhouette score of 0.87 indicating strong cluster separation
+- **Tech:** Python, Pandas, NumPy, Scikit-Learn, Matplotlib
 
-* Designed a **3-zone enterprise network** (External / DMZ / Internal) using **pfSense**
-* Identified **34+ vulnerabilities** (SQLi, XSS, CSRF) with an **85% detection rate**
-* Deployed **Wazuh SIEM** with custom rules and **Suricata IDS** for active monitoring
-* Automated **CVSS scoring** and mapped controls to **NIST CSF & ISO 27001**
-* **Tech:** pfSense, Wazuh, Suricata, Kali Linux, Metasploit, Python, Windows Server
+### Genetic Algorithm-Based Phishing Email Detection
+- Genetic Algorithm feature selection with a Random Forest classifier on TF-IDF features
+- 95.45% accuracy with balanced precision and recall
+- **Tech:** Python, Scikit-Learn, TF-IDF, Random Forest
 
----
-
-### 🚗 Secure Ride-Hailing Web Application
-
-* Built a secure **multi-role (user/driver/admin)** web application using Flask
-* Implemented **JWT authentication**, **bcrypt hashing**, and **CSRF protection**
-* Integrated **Mapbox API** for live tracking and ensured **PCI-DSS compliance** via external payments
-* Applied **OWASP Top 10** security best practices
-* **Tech:** Python, Flask, MySQL, HTML/CSS/JS, Mapbox API, JWT, bcrypt
-
----
-
-### 🚨 Anomaly-Based Intrusion Detection System (IDS)
-
-* Implemented **K-Means clustering with PCA** for anomaly detection
-* Processed **40+ behavioral network features**
-* Achieved a **Silhouette Score of 0.87** indicating strong cluster separation
-* Visualized anomalous traffic to support SOC investigations
-* **Tech:** Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Google Colab
+### Network Traffic Visualization & Forensics Tool
+- Python tool for analyzing Wireshark (.pcap) files with packet parsing, IP classification, and GeoIP mapping
+- Generates KML visualizations for Google Earth
+- **Tech:** Python, dpkt, pygeoip, KML
 
 ---
 
-### 📧 Genetic Algorithm-Based Phishing Email Detection
+## 🔧 Technical Background
 
-* Applied **Genetic Algorithms** for intelligent feature selection
-* Trained a **Random Forest classifier** on **TF-IDF** features
-* Achieved **95.45% accuracy** with balanced precision and recall
-* Evaluated results using confusion matrices and performance metrics
-* **Tech:** Python, Pandas, NumPy, Scikit-Learn, TF-IDF, Random Forest
-
----
-
-### 🌍 Network Traffic Visualization & Forensics Tool
-
-* Developed a Python tool to analyze **Wireshark (.pcap)** files
-* Implemented **packet parsing**, **IP classification**, and **GeoIP mapping**
-* Generated **KML visualizations** for Google Earth
-* Modular design for extension into **IDS and network forensics**
-* **Tech:** Python, Wireshark, dpkt, pygeoip, GeoLiteCity, KML, Google Earth
+| Area | Tools & Skills |
+|---|---|
+| **GRC & Standards** | ISO/IEC 27001, ISO/IEC 42001, NIST CSF, risk assessment, internal audit, SoA, policy development |
+| **SOC & Monitoring** | Splunk, IBM QRadar, Wazuh, Snort, Suricata, Graylog |
+| **Pentesting & Assessment** | Burp Suite, Metasploit, Nmap, OWASP ZAP, SQLmap |
+| **AI / ML for Security** | TensorFlow, PyTorch, Scikit-Learn, Keras, Pandas, NumPy |
+| **Programming & Scripting** | Python, C++, SQL, Bash, PowerShell, JavaScript |
+| **Cloud & DevOps** | AWS, Docker, Kubernetes, Terraform, GitHub Actions |
 
 ---
 
 ## 📌 Currently Exploring
 
-* **SOAR (Security Orchestration, Automation, and Response)** platforms
-* **AI-driven threat hunting** using behavioral analytics
-* **Cloud Security Posture Management (CSPM)** with Terraform
-* **Adversarial Machine Learning** and evasion techniques
+- AI governance frameworks (ISO 42001, NIST AI RMF, EU AI Act)
+- Trustworthy and responsible AI
+- Compliance automation with Python
+- Cloud Security Posture Management (CSPM)
 
 ---
 
 ## 📬 Connect With Me
 
-* 📧 **Email:** [saadxali114@gmail.com](mailto:saadxali114@gmail.com)
-* 💼 **LinkedIn:** [https://www.linkedin.com/in/saad-ali-baaa5b272/](https://www.linkedin.com/in/saad-ali-baaa5b272/)
+📧 **Email:** saadxali114@gmail.com
+💼 **LinkedIn:** https://www.linkedin.com/in/saadali112/
 
----
-
-> *“The quieter you become, the more you are able to hear.” – Dharma Punx*
-
-I believe in **continuous learning**, **ethical hacking**, and building **intelligent, secure systems**.
-
-🔐 **Open to collaboration on security tools, research, CTF teams, and open-source projects.**
+*"The quieter you become, the more you are able to hear." – Dharma Pun*
