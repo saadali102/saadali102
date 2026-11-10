@@ -18,7 +18,7 @@ I'm a cybersecurity graduate working as a GRC Analyst at CareCloud, where I work
 
 ---
 
-## 📋 GRC Projects
+
 
 <!-- Replace each "In progress" with a link once the repo is public -->
 
